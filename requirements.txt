@@ -1,0 +1,14 @@
+antlr4-python3-runtime
+playwright
+"def run_tests(test_to_run=None):",
+    "    TRACE_FILE = 'trace.zip'",
+    "    if os.path.exists(TRACE_FILE):",
+    "        os.remove(TRACE_FILE)",
+    "",
+    "    with sync_playwright() as p:",
+    "        browser = p.chromium.launch(headless=True)",
+    "        context = browser.new_context()",
+    "        context.tracing.start(screenshots=True, snapshots=True, sources=True)",
+    "        page = context.new_page()",
+    "        try:",
+    "",
