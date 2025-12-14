@@ -124,5 +124,3 @@ playwright show-trace trace.zip --port 9323
 | **wait** | `wait "seletor" MS` | Espera até X ms pela presença do elemento. |
 | **expect** | `expect "texto"` | Asserta que o texto existe no código fonte. |
 | **screenshot** | `screenshot "nome.png"` | Tira um print da tela. |
-
-```
