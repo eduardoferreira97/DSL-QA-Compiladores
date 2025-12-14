@@ -88,7 +88,7 @@ playwright install-deps
 Após gerar o script (passo de compilação acima), execute:
 
 ```bash
-python src/saida_playwright.py all
+python src/saida_playwright.py nome_do_teste [Ex.: login_valido, github_search]
 ```
 
 *Isso gerará um arquivo `trace.zip` contendo a gravação da execução.*
